@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H.W. Table</title>
+</head>
+<body>
+    
+    <table border="1">
+
+        <tr>
+            <td>Cell (1,1)</td>
+            <td colspan="3">Cell (1,2) -> Cell (1,4)</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Cell (2,1) -> (4,1)</td>
+            <td>Cell (2,2)</td>
+            <td>Cell (2,3)</td>
+            <td>Cell (2,4)</td>
+        </tr>
+
+        <tr>
+            <td>Cell (3,2)</td>
+            <td colspan="2" rowspan="2">Cell (3,3) -> (4,4)</td>
+        </tr>
+
+        <tr>
+            <td>Cell (4,2)</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
