@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <h2>Student Signup Form</h2>
+    <h5>(*) fields are mandatory</h5>
+
+    <form action="" method="post">
+
+        <label for="">Full Name *</label> <br>
+    <input type="text" name="fullName" placeholder="Max 50 Characters" maxlength="50" required/> <br> <br>
+
+    <label for="">Email *</label> <br>
+    <input type="email" name="email"  placeholder="Max 30 Characters" maxlength="30" required/> <br> <br>
+
+    <label for="">Password *</label> <br>
+    <input type="password" name="password" required placeholder="Min 8 Charaters and 1 Symbol"/> <br> <br>
+
+    <label for="">Cell No. *</label> <br>
+    <input type="text" name="cell" placeholder="01XXXXXXXXX" maxlength="11" required/> <br> <br>
+
+    <label for="">Gender</label> <br>
+    <input type="radio" name="gender" /> Male
+    <input type="radio" name="gender" /> Female
+    <input type="radio" name="gender" /> Others <br> <br>
+
+    <label for="">Hobby</label> <br>
+     <input type="checkbox" name="hobby"/> Gaming
+     <input type="checkbox" name="hobby"/> Coding
+     <input type="checkbox" name="hobby" /> Sleeping
+     <input type="checkbox" name="hobby" /> Gardening
+     <input type="checkbox" name="hobby" /> Travelling <br> <br>
+
+
+    <label for="">Subject *</label> <br>
+    <select name="subject" id="" required>
+        <option value="">--Select Please--</option>
+        <option value="">JEE</option>
+        <option value="">WPDF</option>
+        <option value="">GAVE</option>
+        <option value="">C#.Net</option>
+        <option value="">DDD</option>
+    </select> <br> <br>
+
+    <label for="">Date of Birth</label> <br>
+    <input type="date" name="dob"/> <br> <br>
+
+    <label for="" required>Picture *</label> <br>
+    <input type="file" name="picture"/> <br> <br>
+
+    <label for="">About You</label> <br>
+    <textarea name="aboutMe" id="" cols="30" rows="7" placeholder="Max 500 Characters" maxlength="500"></textarea> <br> <br>
+
+    <input type="submit" value="Signup" /> &nbsp; &nbsp;
+
+    <input type="reset" value="Reset" />
+
+    </form>
+
+
+
+
+</body>
+
+</html>
