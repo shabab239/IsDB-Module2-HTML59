@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        #header {
+            height: 15vh;
+            padding: 10px;
+            background-color: beige;
+        }
+
+        #menu {
+            background-color: aqua;
+            border-radius: 10px;
+            height: fit-content;
+            margin: 5vh 5vh;
+        }
+
+        #menu-ul {
+            list-style: none;
+            padding-top: 3px;
+        }
+
+        #menu ul li a {
+            text-decoration: none;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        #menu ul li a:hover {
+            color: tomato;
+        }
+
+        img {
+            width: 40px;
+            height: auto;
+            margin-top: 5px;
+            margin-left: 30px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            margin: 5vh 5vh;
+            border-radius: 10px;
+            background-color: whitesmoke;
+        }
+
+        #content{
+            height: 60vh;
+            margin-bottom: 10vh;
+        }
+
+        #footer {
+            height: 5vh;
+            padding: 5px;
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row" id="header">
+        <div class="col-md-12">
+            <img src="isdb.png" alt="IsDB Logo"><br>
+            <span style="font-weight: bold; margin-left: 10px;">IsDB-BISEW</span>
+        </div>
+    </div>
+
+    <div class="row" id="content">
+        <div id="menu" class="col-md-2">
+            <ul id="menu-ul">
+                <li><a href="1.html" target="content_iframe">Question 1</a></li>
+                <li><a href="2.html" target="content_iframe">Question 2</a></li>
+                <li><a href="../../Class 5 (07.02.2024)/gallery.html" target="content_iframe">Gallery</a></li>
+            </ul>
+
+        </div>
+
+        <div class="col-md-8">
+            <iframe src="iframe_default_src.html" frameborder="1" name="content_iframe"></iframe>
+        </div>
+    </div>
+
+    <div class="row" id="footer">
+        <div class="col-md-12" style="text-align: center;">
+            <span style="font-weight: bold;">Skip Khan © All Rights Reserved</span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

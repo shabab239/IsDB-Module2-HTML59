@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <style>
+        /* *{
+            margin: 0px;
+            padding: 10px;
+        } */
+        #header {
+            height: 10vh;
+            width: 100%;
+            background-color: aquamarine;
+            border-radius: 10px;
+        }
+
+        #content {
+            height: 80vh;
+            width: 100%;
+        }
+
+        #footer {
+            height: 10vh;
+            width: 100%;
+            background-color: darkgrey;
+            border-radius: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            float: right;
+        }
+
+        nav ul li {
+            float: left;
+            font-size: larger;
+            font-weight: bold;
+            margin: 0px 0px 0px 10px;
+        }
+
+        nav {
+            padding: 0px 10px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none; 
+        }
+
+        nav a img {
+            margin-left: 10px;
+            margin-top: 5px;
+            height: auto;
+            width: 50px;
+        }
+
+        nav a:hover{
+           color: tomato; 
+        }
+
+        /* nav a:visited{
+           color: yellow;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div id="header">
+        <nav>
+            <a href="layout.html">
+                <img src="images/isdb.png" alt="" height="auto" width="50px">
+            </a>
+            <ul>
+                <li><a href="home.html" target="iframe_content">Home</a></li>
+                <li><a href="shabab.html" target="iframe_content">About</a></li>
+                <li><a href="form.html" target="iframe_content">Contact</a></li>
+                <li><a href="gallery.html" target="iframe_content">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="content">
+        <iframe src="marquee.html" frameborder="0" name="iframe_content"></iframe>
+    </div>
+
+    <div id="footer">
+        <nav>
+            <ul>
+                <li><a href="home.html" target="iframe_content">Shabab©All Rights Reserved</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
