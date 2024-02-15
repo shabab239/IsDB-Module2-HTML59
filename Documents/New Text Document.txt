@@ -1,1 +1,0 @@
-meta, how to declare and benefits of iframe, colgroup, html 5 vs 4, block vs inline, video tag support, benifits of using base element, ways to define list,
