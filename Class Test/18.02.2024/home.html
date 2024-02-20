@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <style>
+        #menu-div {
+            width: 15%;
+            float: left;
+            height: 98vh;
+            background-color: beige;
+            border-radius: 10px;
+        }
+
+        #iframe-div {
+            height: 98vh;
+            width: 85%;
+            float: right;
+            background-color:whitesmoke;
+            border-radius: 10px;
+        }
+
+        ul li {
+            list-style-type: none;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        ul li a{
+            text-decoration: none;
+            font-size: 30px;
+        }
+
+        #menu-div h4{
+            text-decoration: none;
+            font-size: 30px;
+            margin-left: 44px;
+        }
+        
+        a:hover{
+            color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="menu-div">
+        <h4>Menu</h4>
+        <hr>
+        <ul>
+            <li>
+                <a href="table.html" target="content-iframe">Table</a>
+            </li>
+            <li>
+                <a href="std-reg-form.html" target="content-iframe">Form</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div id="iframe-div">
+        <iframe src="iframe-default_src.html" name="content-iframe" frameborder="0" height="100%" width="100%"></iframe>
+    </div>
+
+</body>
+
+</html>
